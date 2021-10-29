@@ -25,7 +25,8 @@ final _salmon = Food(
 final _restaurant0 = Restaurant(
   imageUrl: 'assets/images/restaurant0.jpg',
   name: 'Restaurant 0',
-  address: '200 Main St, New York, NY',
+  address:
+      '200 Main St, New York, NY, Main St, New York, NY Main St, New York, NY',
   rating: 5,
   menu: [_burrito, _steak, _pasta, _ramen, _pancakes, _burger, _pizza, _salmon],
 );

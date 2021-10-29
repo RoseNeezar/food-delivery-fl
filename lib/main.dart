@@ -13,9 +13,10 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-            scaffoldBackgroundColor: Colors.grey[50],
-            primaryColor: Colors.deepOrangeAccent,
-            appBarTheme: AppBarTheme(backgroundColor: Colors.deepOrangeAccent)),
+          scaffoldBackgroundColor: Colors.grey[50],
+          primaryColor: Colors.deepOrangeAccent,
+          appBarTheme: AppBarTheme(backgroundColor: Colors.deepOrangeAccent),
+        ),
         home: HomeScreen());
   }
 }
